@@ -1,6 +1,5 @@
 # Smart_Interior_Assistant
-A simple and smart AI-powered app that generates interior design ideas and visual inspirations based on the type of room and desired style.
-Built using **Streamlit** and **Hugging Face models** (`flan-t5` for text, `stable-diffusion` for image generation).
+The Smart Interior Assistant is an AI-powered tool designed to help users plan and visualize interior design ideas efficiently. By leveraging Generative AI and computer vision, it allows users to transform ordinary room images into modern, aesthetically pleasing interiors with style recommendations and automation features.
 
 ## ✨ Features
 
@@ -11,10 +10,43 @@ Built using **Streamlit** and **Hugging Face models** (`flan-t5` for text, `stab
 
 ## 📦 Tech Stack
 
-| Layer            | Tools Used                          |
-|------------------|-------------------------------------|
-| LLM (Text)       | `google/flan-t5-large`              |
-| Diffusion(Image) | `stabilityai/stable-diffusion-2`    |
-| Frontend         | `Streamlit`                         |
-| API Access       | Hugging Face Inference API          |
-| Security         | `.env` + Streamlit Cloud Secrets    |
+- Frontend: Streamlit
+
+- Backend: Python
+
+- AI Models: Hugging Face diffusion models / OpenAI image generation (customizable)
+
+- Libraries:
+
+   - transformers
+
+   - Pillow
+
+   - OpenCV
+
+   - Streamlit
+
+   - requests
+ 
+## 🧠 AI Capabilities
+- Trained with architectural and interior design datasets
+
+- Can interpret basic room features (walls, windows, lighting)
+
+- Custom prompt generation for targeted style rendering
+
+## 💡 Use Cases
+- For interior designers to quickly visualize design concepts
+
+- For homeowners planning renovations
+
+- For real estate staging previews
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or add.
+
+## 🚀 How to Run Locally
+1. Clone the repo
+2. Create a virtual environment & activate it
+3. Install the dependencies
+4. Run the app
